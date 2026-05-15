@@ -34,11 +34,12 @@ nav{
 }
 section{
     padding: 5px;
+    min-height: 80vh;
 }
 nav a{
     text-decoration: none;
     color: black;
-    padding: 5px;
+    padding-left: 40px;
 }
 article{
     background-color: rgb(211, 211, 211, 0.7);
