@@ -53,3 +53,23 @@ nav a{
     border-radius: 15px;
     text-align: center;
 }
+.tabla-precios{
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.tabla-precios th,
+.tabla-precios td{
+    border: 3px solid #6b4f32;
+    padding: 16px 20px;
+}
+.tabla-precios th{
+    background-color: #c2ab96;
+    color: #2f1b0c;
+    font-size: 1.3rem;
+}
+.tabla-precios tbody tr:hover{
+    background-color: rgba(218, 192, 168, 0.5);
+}
