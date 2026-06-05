@@ -1,3 +1,7 @@
-Cafe,$3416
 Medialunas,$344367
+Facturas,$436346
+Criolllos,$976145
 Capuchino,$3467582
+Frapucchino,$346445647
+Espresso,$456785679856
+Cafe Americano,$3416

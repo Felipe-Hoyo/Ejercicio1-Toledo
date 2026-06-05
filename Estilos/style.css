@@ -12,19 +12,13 @@ body{
     grid-template-rows:
     auto 1fr auto;
     min-height: 100vh;
+    text-align: center;
 }
 header{ 
     background-color: rgb(218, 192, 168);  
 }
 footer{ 
     background-color: #dac0a8;
-}
-ul{
-    font-size: 20px;
-    margin: 0;
-}   
-p{
-    font-size: 20px;
 }
 nav{
     background-color:#c2ab96 ;
@@ -53,23 +47,58 @@ nav a{
     border-radius: 15px;
     text-align: center;
 }
-.tabla-precios{
-    width: 90%;
-    margin: 0 auto;
-    border-collapse: collapse;
-    font-size: 1.2rem;
-    background-color: rgba(255, 255, 255, 0.9);
-}
 .tabla-precios th,
 .tabla-precios td{
     border: 3px solid #6b4f32;
     padding: 16px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 .tabla-precios th{
     background-color: #c2ab96;
     color: #2f1b0c;
-    font-size: 1.3rem;
+    font-size: 25px;
 }
-.tabla-precios tbody tr:hover{
-    background-color: rgba(218, 192, 168, 0.5);
+.formulario{
+    background-color: rgb(218, 192, 168, 0.7);
+    border: 5px solid black;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+textarea{
+    width: 90%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 8px 0 16px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario select {
+    width: 90%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 8px 0 16px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+#otros-detalles {
+    width: 90%;
+    max-width: 500px;
+}
+.formulario input[type="submit"] {
+    width: 50%;
+    max-width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.tabla-precios{
+    display: grid;
+    background-color: rgb(218, 192, 168, 0.7);
+    border: 3px solid #6b4f32;
 }
