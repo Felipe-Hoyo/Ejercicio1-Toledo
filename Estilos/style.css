@@ -102,14 +102,31 @@ textarea{
     background-color: rgb(218, 192, 168, 0.7);
     border: 3px solid #6b4f32;
 }
-.pedido{
-    background-color: rgb(218, 192, 168, 0.7);
-    border: 5px solid black;
+.art-pedido{
     margin: 10px;
     border-radius: 15px;
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+}
+.boton-pedido{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c2ab96;
+    color: #2f1b0c;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 30px;
+}
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c2ab96;
+    color: #2f1b0c;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 30px;
+}
+button:hover{
+    background-color: #a68c7b;
+    color: white;
+    cursor: pointer;
 }

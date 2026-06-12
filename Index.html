@@ -19,7 +19,7 @@
             <a href="#menu">• Menu destacado</a>
             <a href="#nosotros">• Nosotros</a>
             <a href="#contacto">• Contacto</a>
-            <a href="#pedido">• Pedido</a>
+            <a href="#pedido">• Pedir</a>
             <a href="#tabla-precios">• Menu completo</a>
         </nav>
     </header>
@@ -61,7 +61,12 @@
                 <h2>Un café cremoso y aromático, preparado con espresso, leche vaporizada y una capa de espuma. Perfecto para comenzar tu día con estilo.</h2>
             </article>
         </section>
-        <section id="tabla-precios" class="tabla-precios"   >
+        <br>
+        <article id="pedido" class="art-pedido">
+            <button onclick="window.location.href='Pedido.html'">Pedir</button>
+        </article>
+        <br>
+        <section id="tabla-precios" class="tabla-precios">
             <h1>Menú completo</h1>
             <table>
                 <thead>
@@ -73,47 +78,9 @@
                 <tbody>
                 </tbody>
             </table>
+            <br>
         </section>
         <br>
-        <section>
-            <form action="form.html" class="formulario" id="pedido">
-                <h1>Pedido</h1>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-                <br><br>
-                <label for="producto">Producto (mantener control para seleccionar varias):</label>
-                <br>
-                <select name="productos[]" id="productos" size="3" multiple>
-                    <option value="cafe espresso">Café Espresso</option>
-                    <option value="cafe cappuccino">Café Cappuccino</option>
-                    <option value="frapuchino">Frappuccino</option>
-                    <option value="cafe americano">Café Americano</option>
-                    <option value="medialunas">Medialunas</option>
-                    <option value="facturas">Facturas</option>
-                    <option value="criollos">Criollos</option>
-                </select>
-                <br>
-                <label for="direccion">Dirección:</label>
-                <input type="text" id="direccion" name="direccion" required>
-                <br>
-                <label for="telefono">Teléfono:</label>
-                <input type="tel" id="telefono" name="telefono" required>
-                <br>
-                <label for="metodo-pago">Método de Pago:</label>
-                <select id="metodo-pago" name="metodo-pago" required>
-                    <option value="efectivo">Efectivo</option>
-                    <option value="tarjeta">Tarjeta de Crédito/Débito</option>
-                    <option value="transferencia">Transferencia Bancaria</option>
-                </select>
-                <br>
-                <label for="comentarios">Comentarios adicionales:</label>
-                <br>
-                <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
-                <br>
-                <button type="submit">Realizar Pedido</button>
-                <br><br><br>
-            </form>
-        </section>
     </main>
 </body>
 <footer id="contacto" style="text-align: center;">
