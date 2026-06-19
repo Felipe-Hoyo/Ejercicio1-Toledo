@@ -42,6 +42,17 @@ nav a{
     border-radius: 15px;
     background-color: rgb(218, 192, 168, 0.7); 
 }
+.carousel {
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.carousel-item img {
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+}
 .nosotros{
     background-color: rgb(218, 192, 168, 0.7); 
     border-radius: 15px;
@@ -129,4 +140,8 @@ button:hover{
     background-color: #a68c7b;
     color: white;
     cursor: pointer;
+}
+div img{
+    height: 300px;
+    width:auto
 }

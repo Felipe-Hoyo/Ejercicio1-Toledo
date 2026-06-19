@@ -23,6 +23,15 @@ const countProducts = document.querySelector('#contador-productos');
 
 const cartEmpty = document.querySelector('.cart-empty');
 const cartTotal = document.querySelector('.cart-total');
+const btnPay = document.querySelector('.btn-pay');
+
+btnPay.addEventListener('click', () => {
+	if (!allProducts.length) return;
+
+	alert('¡Gracias por tu compra!');
+	allProducts = [];
+	showHTML();
+});
 
 productsList.addEventListener('click', e => {
 	if (e.target.classList.contains('btn-add-cart')) {

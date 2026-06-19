@@ -149,7 +149,7 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 20px 0;
-    gap: 20px;
+    gap: 15px;
     background-color: #c2ab96;
     border-top: 2px solid #6b4f32;
 }
@@ -158,6 +158,21 @@ footer{
     font-size: 20px;
     font-weight: 700;
     color: #2f1b0c;
+}
+
+.btn-pay{
+    background-color: #6b4f32;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-pay:hover{
+    background-color: #4d3722;
 }
 
 .total-pagar{
@@ -256,4 +271,20 @@ footer{
 
 .hidden{
     display: none;
+}
+
+button a{
+    text-decoration: none;
+    color: #2f1b0c;
+    font-weight: bold;
+}
+button a:hover{
+    color: white;
+}
+button{
+    background-color: #c2ab96;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
